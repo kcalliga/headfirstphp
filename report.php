@@ -8,7 +8,7 @@
   $when_it_happened = $_POST['whenithappened'];
   $how_long = $_POST['howlong'];
   $alien_description = $_POST['aliendescription'];
-  $fang_spotted = $_POST['fangspotted']
+  $fang_spotted = $_POST['fangspotted'];
   $email = $_POST['email'];
   
   echo 'Thanks for submitting the form.<br />';
