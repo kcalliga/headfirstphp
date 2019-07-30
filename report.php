@@ -13,7 +13,7 @@
   
   $to = 'keith@calligan.name';
   $subject = 'Report';
-  $msg = "test $when_it_happened \n"
+  $msg = "test $when_it_happened \n".
 mail($to, $subject, $msg, 'From:' . $email);
   
   echo 'Thanks for submitting the form.<br />';
