@@ -20,7 +20,7 @@
   Yes <input id="fangspotted" name="fangspotted" type="radio" value="yes" />
   No <input id="fangspotted" name="fangspotted" type="radio" value="no" />
   <label for="other">Anything else you want to add?</label>
-  <textarea name="other">/textarea></br>
+  <textarea name="other"></textarea></br>
   <input type="submit" value="Report" name="submit" />
  </form>
  
