@@ -20,7 +20,7 @@
   $email = $_POST['email'];
   $other = $_POST['other'];
 
-  $dbc = mysqli_connect('mysql', 'root', 'password', 'aliendatabase')
+  $dbc = mysqli_connect('mysql', 'root', 'password', 'aliensdatabase')
     or die('Error connecting to MySQL server.');
 
   $query = "INSERT INTO aliens_abduction (first_name, last_name, when_it_happened, how_long, " .
